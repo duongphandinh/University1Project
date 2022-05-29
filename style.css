@@ -256,3 +256,135 @@ header {
     opacity: 0;
     transition: all 0.5s ease;
 }
+/*---------------facilities----------------*/
+.facilities {
+    padding: 50px 0;
+}
+.facilities h1 {
+    font-family: var(--main-text-font);
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.facilities-items {
+    justify-content: space-between;
+}
+.facilities-item {
+    width: 30%;
+    border-radius: 5px;
+}
+.facilities-item h2 {
+    font-family: var(--main-text-font);
+    color: #333333;
+    margin: 15px 0 6px 0;
+}    
+.facilities-item img:hover {
+    transform: scale(1.04);
+}
+.facilities-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+/*---------------testimony----------------*/
+.testimony {
+    padding: 50px 0;
+}
+.testimony> h1 {
+    font-family: var(--main-text-font);
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.testimony-items {
+    justify-content: space-between;
+}
+.testimony-item {
+    width: 30%;
+     background-color: #f3d6cf;
+     padding: 50px 6px;
+}
+.testimony-item:hover img {
+    border: 5px solid var(--main-color);
+}
+.testimony-text h1 {
+    font-family: var(--main-text-font);
+    color: #333333;
+    font-size: 18px;
+    margin: 12px 0 6px ;
+    font-weight: 900;
+}
+.testimony-item i {
+    color: rgb(240, 240, 151);
+}    
+.testimony-item img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.testimony-text {
+    width: 70%;
+    padding-left: 20px;
+}
+.testimony-text p {
+    font-family: var(--main-text-font);
+    color: #333333;
+    font-size: 16px;
+}
+/*-------------Contact-----------*/
+.contact {
+    background-image: url("https://s3.envato.com/files/240851646/BN_preview_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+.contact p {
+    color: white;
+    font-size: 22px;
+    font-family: var(--main-text-font);
+}
+.contact button {
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    font-family: var(--main-text-font);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+.contact button:hover {
+    background: transparent;
+    border: 2px solid var(--main-color);
+}
+/*-----------------------Footer------------------*/
+footer {
+    padding: 50px 0 6px;
+    text-align: center;
+}
+footer h1 {
+    font-family: var(--main-text-font);
+    color: #333333;
+    margin-bottom: 30px ;
+}
+footer p {
+    font-family: var(--main-text-font);
+    color: #333333;
+}
+footer i {
+    margin-top: 12px;
+    color: var(--main-color);
+    font-size: 22px;
+    cursor: pointer;
+
+}    
