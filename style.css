@@ -9,6 +9,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    
 }
 a {
     text-decoration:none;
@@ -41,6 +42,10 @@ header {
     background-color: black;
     opacity: 0.6;
 } 
+
+img {
+    width: 100%;
+}
 .top {
     position: absolute;
     width: 100%;
@@ -98,7 +103,7 @@ header {
     display: none;
 
 }
-.header-top> i {
+.header-top > i {
     font-size: 32px;
     color: var(--main-color);
     cursor: pointer;
@@ -157,10 +162,10 @@ header {
         margin-bottom: 20px;
         margin-left: 50px;
     }
-    .header-top>i {
+    .header-top > i {
         display: block;
     }
-    .header-top ul>i {
+    .header-top ul > i {
         display: block;
     }
     .header-top {
@@ -244,6 +249,7 @@ header {
     object-fit: cover;
     border-radius: 5px;
     cursor: pointer;
+    margin: auto;
 }
 
 .brand-item h2 {
@@ -292,7 +298,18 @@ header {
 /*---------------testimony----------------*/
 .testimony {
     padding: 50px 0;
+    width: 100%;
 }
+.testimony--item row {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+testimony--item row img{
+    width: 100%;
+}
+
 .testimony> h1 {
     font-family: var(--main-text-font);
     text-align: center;
@@ -301,6 +318,8 @@ header {
 }
 .testimony-items {
     justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 .testimony-item {
     width: 30%;
